@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6087ae520adb63ff0e976369d02b5bc",
+    "content-hash": "666642fec9622b82c5f053ea7d6f2d78",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1335,60 +1335,6 @@
                 "psysh"
             ],
             "time": "2020-08-11T19:28:08+00:00"
-        },
-        {
-            "name": "laravel/ui",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/ui.git",
-                "reference": "ff6af4f0bc5a5bfe73352cdc03dbfffc4ace92d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/ui/zipball/ff6af4f0bc5a5bfe73352cdc03dbfffc4ace92d8",
-                "reference": "ff6af4f0bc5a5bfe73352cdc03dbfffc4ace92d8",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^8.0",
-                "illuminate/filesystem": "^8.0",
-                "illuminate/support": "^8.0",
-                "php": "^7.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Ui\\UiServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Ui\\": "src/",
-                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Laravel UI utilities and presets.",
-            "keywords": [
-                "laravel",
-                "ui"
-            ],
-            "time": "2020-09-11T15:34:08+00:00"
         },
         {
             "name": "league/commonmark",
@@ -4781,16 +4727,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v5.1.0",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "448c76d7a9e30c341ff5bc367a923af74ae18467"
+                "reference": "fba64139db67123c7a57072e5f8d3db10d160b66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/448c76d7a9e30c341ff5bc367a923af74ae18467",
-                "reference": "448c76d7a9e30c341ff5bc367a923af74ae18467",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/fba64139db67123c7a57072e5f8d3db10d160b66",
+                "reference": "fba64139db67123c7a57072e5f8d3db10d160b66",
                 "shasum": ""
             },
             "require": {
@@ -4813,7 +4759,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "5.2-dev"
                 }
             },
             "autoload": {
@@ -4853,7 +4799,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-14T19:26:25+00:00"
+            "time": "2020-09-14T15:57:31+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -5337,6 +5283,60 @@
                 "test"
             ],
             "time": "2020-07-09T08:09:16+00:00"
+        },
+        {
+            "name": "laravel/ui",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "ff6af4f0bc5a5bfe73352cdc03dbfffc4ace92d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/ff6af4f0bc5a5bfe73352cdc03dbfffc4ace92d8",
+                "reference": "ff6af4f0bc5a5bfe73352cdc03dbfffc4ace92d8",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.0",
+                "illuminate/filesystem": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "time": "2020-09-11T15:34:08+00:00"
         },
         {
             "name": "mockery/mockery",
