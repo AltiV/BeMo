@@ -1,0 +1,100 @@
+.nav-item {
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.image-banner {
+    position: relative;
+}
+
+.image-banner img {
+    width: 100%;
+    margin: -90px 0 0 0;
+}
+
+.image-banner .centered {
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-banner .centered hr {
+    text-align: center;
+    background-color: #e9e9e9;
+    width: 100%;
+    height: 2px;
+}
+
+.content {
+    margin: 50px 50px;
+}
+
+.content > * {
+    line-height: 1.5;
+}
+
+h1 {
+    font: 17px Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000066;
+    font-weight: bold;
+}
+
+h2 {
+    font: 16px Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p,
+ul {
+    font: 16px Arial, Verdana, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #ff6903;
+    text-decoration: none;
+}
+
+a:hover,
+.socials a:hover {
+    color: #909090;
+}
+
+.message-text {
+    font: 24px Arial, Verdana, Helvetica, sans-serif;
+}
+
+footer {
+    font-size: 13px;
+    background-color: #000066;
+    color: white;
+    padding: 15px 60px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 80%;
+    background-color: #cccccc;
+    font-family: monospace;
+}
+
+.contact-form form {
+    color: #000066;
+    background-color: #bbbbbb;
+    font-size: 13px;
+    padding: 0px 20px;
+}
+
+.socials a {
+    color: white;
+    margin: 0 10px;
+    float: right;
+}
